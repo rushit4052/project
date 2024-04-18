@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel=stylesheet href="css/style.css">
+</head>
+
+<body>
+    <nav class=navbar>
+        <div class="navdiv">
+            <div class="logo">
+                <span>Jewellery Store</span>
+            </div>
+            <ul>
+                <button class="login"><a href="signin.php">Login</a></button>
+                <button class="logout"><a href="logout.php">Log Out</a></button>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="slider">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+
+        <div class="slides">
+            <div class="slide bg1">
+                <img src="/php_microproject/image/slider1.jpg" alt="Image 1">
+            </div>
+            <div class="slide bg2">
+                <img src="/php_microproject/image/slider2.jpg" alt="Image 2">
+            </div>
+            <div class="slide bg3">
+                <img src="/php_microproject/image/slider3.jpg" alt="Image 3">
+            </div>
+        </div>
+        <div class="navigation">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+        </div>
+    </div>
+
+
+
+    <div class="f-product">
+        <center>
+            <p class="heading1">Featured Product</p>
+            <p class="heading2">best designs available for you</p>
+        </center>
+    </div>
+
+    <div class="pro-container">
+
+        <div class="container">
+            <center>
+                <img src="image/ring1.jpg" />
+                <div>
+                    <h5>Dammini Diamond Ring</h5>
+                    <h4>₹13,140</h4>
+                </div>
+            </center>
+        </div>
+
+        <div class="container">
+            <center>
+                <img src="image/Bracelet1.jpg" />
+                <div>
+                    <h5>Bracelets</h5>
+                    <h4>₹6725</h4>
+                </div>
+            </center>
+        </div>
+
+        <div class="container">
+            <center>
+                <img src="image/ring1.jpg" />
+                <div>
+                    <h5>Braceletes</h5>
+                    <h4>₹7552</h4>
+                </div>
+            </center>
+        </div>
+
+        <div class="container">
+            <center>
+                <img src="image/bracelet1.jpg" />
+                <div>
+                    <h5>Rings</h5>
+                    <h4>₹5999</h4>
+                </div>
+            </center>
+        </div>
+
+        <div class="container">
+            <center>
+                <img src="image/Bracelet1.jpg" />
+                <div>
+                    <h5>Bracelets</h5>
+                    <h4>₹6725</h4>
+                </div>
+            </center>
+        </div>
+
+    </div>
+
+    <div class="pro-container">
+
+        <div class="container">
+            <center>
+                <img src="image/ring1.jpg" />
+                <div>
+                    <h5>Dammini Diamond Ring</h5>
+                    <h4>₹13,140</h4>
+                </div>
+            </center>
+        </div>
+
+        <div class="container">
+            <center>
+                <img src="image/Bracelet1.jpg" />
+                <div>
+                    <h5>Bracelets</h5>
+                    <h4>₹6725</h4>
+                </div>
+            </center>
+        </div>
+
+        <div class="container">
+            <center>
+                <img src="image/ring1.jpg" />
+                <div>
+                    <h5>Braceletes</h5>
+                    <h4>₹7552</h4>
+                </div>
+            </center>
+        </div>
+
+        <div class="container">
+            <center>
+                <img src="image/bracelet1.jpg" />
+                <div>
+                    <h5>Rings</h5>
+                    <h4>₹5999</h4>
+                </div>
+            </center>
+        </div>
+
+        <div class="container">
+            <center>
+                <img src="image/Bracelet1.jpg" />
+                <div>
+                    <h5>Bracelets</h5>
+                    <h4>₹6725</h4>
+                </div>
+            </center>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
